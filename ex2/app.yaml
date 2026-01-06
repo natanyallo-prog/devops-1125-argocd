@@ -54,5 +54,4 @@ spec:
       - name: html-volume
         configMap:
           name: my-website-config
-      syncOptions:
-      - CreateNamespace=true
+  
