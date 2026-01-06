@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/EliMutchnik/devops-experts.git
+    repoURL: https://github.com/natanyallo-prog/devops-1125-argocd.git
     targetRevision: HEAD
-    path: ./argocd/ex1
+    path: ./argocd/ex2
   destination:
     server: https://kubernetes.default.svc
     namespace: student-apps
